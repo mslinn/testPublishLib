@@ -1,7 +1,7 @@
 # TestPublishLib #
 
 Sample library for testing sbt publishing.
-Companion app is [testPublishApp](https://github.com/mslinn/testPublishApp.git)
+Companion app is [testPublishApp](https://github.com/mslinn/testPublishApp)
 
 1. This project is configured to publish to the local ivy repo at `~/.ivy2/local`.
 2. Create directory on a web server or an AWS S3 bucket to hold the published files.

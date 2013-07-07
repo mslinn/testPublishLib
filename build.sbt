@@ -17,19 +17,8 @@ resolvers ++= Seq(
   "Typesafe Releases" at "http://repo.typesafe.com/typesafe/releases"
 )
 
-libraryDependencies ++= Seq(
-)
+libraryDependencies ++= Seq()
 
 publishTo := Some(Resolver.file("file", new File(Path.userHome.absolutePath + "/.ivy2/local")))
 
 publishMavenStyle := true
-
-//logLevel := Level.Error
-
-// define the statements initially evaluated when entering 'console', 'console-quick', or 'console-project'
-initialCommands := """
-                     |""".stripMargin
-
-// Only show warnings and errors on the screen for compilations.
-// This applies to both test:compile and compile and is Info by default
-//logLevel in compile := Level.Warn
